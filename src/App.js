@@ -1,32 +1,28 @@
-import './App.css'; 
-import "@fontsource/pirata-one";
-// import Button from 'react-bootstrap/Button';
-import {Home} from './components/Home.js'
-import {Home2} from './components/Home2.js'
-import {Home3} from './components/Home3.js'
-import {Home4} from './components/Home4.js'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'; 
+import HomePage from './pages/HomePage.js'
+import TablePage from './pages/TablePage.js'
+import ThirdTablePage from './pages/ThirdTablePage.js'
+import DivBordersPage from './pages/DivBordersPage.js'
+import UseStatePage from './pages/UseStatePage.js'
+// import Employees from './pages/Employees.js'
+import Navbar from './Navbar.js'
 
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Home/>
-      <Home2/>
-      <Home/>
-      <Home2/>
-
-      <Home4/>
-
-      <Home2/>
-      <Home/>
-      <Home2/>
-      <Home/>
-      <Home2/>
-      <Home/>
-      <Home2/>
-      <Home3/>
-    </div>
+    <BrowserRouter>
+    <Navbar />
+      <div>
+        <Routes>
+          <Route path='/' element={<HomePage/>} />
+          <Route path='/tabel' element={<TablePage/>} />
+          <Route path='/kolmas-tabel' element={<ThirdTablePage/>} />
+          <Route path='/div-borders' element={<DivBordersPage/>} />
+          <Route path='/useState' element={<UseStatePage/>} />
+          {/* <Route path='/suur-tabel' element={<Employees/>} /> */}
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
-
 export default App;

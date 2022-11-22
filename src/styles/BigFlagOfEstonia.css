@@ -1,0 +1,145 @@
+/* .Big-FlagOfEstonia-blue{
+    background-color: #083080;
+    height: 245px;
+    width: 1155px;
+} */
+
+/* .Big-FlagOfEstonia-black{
+    background-color: black;
+    height: 245px;
+    width: 1155px;
+} */
+
+
+
+.Section-1{
+    display: flex; 
+}
+
+
+
+.Big-FlagOfEstonia-blue-1{
+    background-color: #083080;
+    height: 245px;
+    width: 347px;
+}
+.Big-FlagOfEstonia-black-2{
+    background-color: black;
+    height: 245px;
+    width: 15px;
+}
+.Big-FlagOfEstonia-white-3{
+    background-color: white;
+    height: 245px;
+    width: 15px;
+}
+.Big-FlagOfEstonia-black-4{
+    background-color: black;
+    height: 245px;
+    width: 185px;
+}
+.Big-FlagOfEstonia-white-5{
+    background-color: white;
+    height: 245px;
+    width: 15px;
+}
+.Big-FlagOfEstonia-black-6{
+    background-color: black;
+    height: 245px;
+    width: 15px;
+}
+.Big-FlagOfEstonia-blue-7{
+    background-color: #083080;
+    height: 245px;
+    width: 564px;
+}
+/* ------------------------------------ */
+.Big-FlagOfEstonia-black-8{
+    background-color: black;
+    height: 15px;
+    width: 362px;
+}
+.Big-FlagOfEstonia-white-9{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+}
+.Big-FlagOfEstonia-black-10{
+    background-color: black;
+    height: 15px;
+    width: 185px;
+}
+.Big-FlagOfEstonia-white-11{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+}
+.Big-FlagOfEstonia-black-12{
+    background-color: black;
+    height: 15px;
+    width: 579px;
+}
+/* ------------------------------------- */
+.Big-FlagOfEstonia-white-13{
+    background-color: white;
+    height: 15px;
+    width: 362px;
+}
+.Big-FlagOfEstonia-white-14{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+}
+.Big-FlagOfEstonia-black-15{
+    background-color: black;
+    height: 15px;
+    width: 185px;
+}
+.Big-FlagOfEstonia-white-16{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+}
+.Big-FlagOfEstonia-white-17{
+    background-color: white;
+    height: 15px;
+    width: 579px;
+}
+/* --------------------------------- */
+.Big-FlagOfEstonia-black-18{
+    background-color: black;
+    height: 185px;
+    width: 1155px;
+}
+/* ----------------------------------- */
+.Big-FlagOfEstonia-white-19{
+    background-color: white;
+    height: 245px;
+    width: 347px;
+}
+.Big-FlagOfEstonia-white-20{
+    background-color: white;
+    height: 245px;
+    width: 564px;
+}
+
+
+
+
+/* .Big-FlagOfEstonia-black{
+    background-color: black;
+    height: 245px;
+    width: 1155px;
+}
+.Big-FlagOfEstonia-white{
+    background-color: white;
+    height: 245px;
+    width: 1155px;
+} */
+.Big-Flag-border{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    width:fit-content;
+    height:fit-content;
+}

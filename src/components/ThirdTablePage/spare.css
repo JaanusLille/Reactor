@@ -1,0 +1,40 @@
+.p-datatable-header {
+    /* background: lightBlueHover; */
+    /* border: 1px solid #cad4dc; */
+    border-width: 1px 1px 0 1px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    /* padding: 1rem 1rem; */
+}
+/* p-paginator p-component p-paginator-bottom */
+.p-paginator.p-component.p-paginator-bottom {
+    /* background: lightBlueHover; */
+    /* border: 1px solid #cad4dc; */
+    /* border-width: 1px 1px 0 1px; */
+    border-radius: 0 0 8px 8px;
+    /* display: flex; */
+    /* padding: 1rem 1rem; */
+}
+
+.image-text {
+    vertical-align: middle;
+    margin-left: .5rem;
+}
+
+.datatable-filter-column {
+    padding-right: 0px !important;
+    /* max-width: 960px; */
+}
+
+.datatable-filter-column-user {
+    min-width: 140px;
+    padding-right: 0px !important;
+}
+.datatable-filter-column-user-number {
+    min-width: 180px;
+    padding-right: 0px !important;
+}
+.datatable-filter-column-date {
+    min-width: 130px;
+    padding-right: 0px !important;
+}

@@ -1,0 +1,134 @@
+
+/* DivBordersPageComponent: */
+.Div-border-coat-1 {
+  background-color: #282c34;
+  /* border-color:aqua; */
+  border-color:purple;
+  align-items: center;
+  justify-content: center;
+  font-family: "Pirata One";
+  font-size: 100px;
+  /* border-style: dotted; */
+  border-style: solid ;
+  border-width: 5px;
+  border-radius: 25px;
+  display: flex;
+  width:fit-content;
+  margin: auto;
+}
+.Div-border-coat-2 {
+  background-color: #282c34;
+  /* border-color:aqua; */
+  border-color:green;
+  align-items: center;
+  justify-content: center;
+  font-family: "Pirata One";
+  font-size: 100px;
+  /* border-style: dotted; */
+  border-style: solid ;
+  border-width: 5px;
+  border-radius: 25px;
+  display: flex;
+}
+.Div-border-coat-font {
+  /* background-color: #282c34; */
+  border-color:green;
+  color:red;
+  align-items: horizontal;
+  justify-content: horizontal;
+  font-family: "Pirata One";
+  font-size: 100px;
+  border-style: solid ;
+  border-width: 2px;
+  border-radius: 25px;
+  display: flex; 
+}
+
+/* WhiteComponent: */
+.White-component {
+  background-color: #5b75a9;
+  border-color:white;
+  font-family: "Pirata One";
+  font-size: 100px;
+  border-style: solid ;
+  border-width: 1px;
+  border-radius: 25px;
+  width:fit-content;
+}
+
+/* FlagOfEstonia: */
+.FlagOfEstonia-blue{
+  background-color: #083080;
+  height: 10vmin;
+}
+.FlagOfEstonia-black{
+  background-color: black;
+  height: 10vmin;
+}
+.FlagOfEstonia-white{
+  background-color: white;
+  height: 10vmin;
+}
+.Flag{
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-dark {
+  background-color: #282c34;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+.Welcome-logo {
+  font-family: "Pirata One";
+}
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+.App-logo-2 {
+  height: 10vmin;
+  pointer-events: none;
+}
+.App-logo-3 {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1s linear;
+  }
+  .App-logo-2 {
+    animation: App-logo-spin-counterClockWise infinite 1s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin-counterClockWise {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
