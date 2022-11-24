@@ -46,8 +46,8 @@
 }
 .Div-border-coat-font {
   /* background-color: #282c34; */
-  border-color:blue;
-  color:white;
+  border-color:white;
+  color:blue;
   align-items: horizontal;
   justify-content: horizontal;
   font-family: "Pirata One";
