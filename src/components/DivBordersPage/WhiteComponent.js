@@ -97,6 +97,8 @@ const WhiteComponent = () => {
             <div className='White-component'>
             <div className='White-component'>
             <div className='White-component'>
+            <div className='White-component'>
+            </div>
             </div>
             </div>
             </div>

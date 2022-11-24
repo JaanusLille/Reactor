@@ -22,7 +22,6 @@ const WhiteComponentRow = () => {
                 <WhiteComponent/>
                 <WhiteComponent/>
 
-                <WhiteComponent/>
 
             </div>
         </>
