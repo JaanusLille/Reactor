@@ -1,9 +1,9 @@
 
 /* DivBordersPageComponent: */
 .Div-border-coat-1 {
-  background-color: #282c34;
+  background-color: black;
   /* border-color:aqua; */
-  border-color:purple;
+  border-color:blue;
   align-items: center;
   justify-content: center;
   font-family: "Pirata One";
@@ -17,9 +17,23 @@
   margin: auto;
 }
 .Div-border-coat-2 {
-  background-color: #282c34;
+  background-color: black;
   /* border-color:aqua; */
-  border-color:green;
+  border-color:black;
+  align-items: center;
+  justify-content: center;
+  font-family: "Pirata One";
+  font-size: 100px;
+  /* border-style: dotted; */
+  border-style: solid ;
+  border-width: 5px;
+  border-radius: 25px;
+  display: flex;
+}
+.Div-border-coat-3 {
+  background-color: black;
+  /* border-color:aqua; */
+  border-color:white;
   align-items: center;
   justify-content: center;
   font-family: "Pirata One";
@@ -32,8 +46,8 @@
 }
 .Div-border-coat-font {
   /* background-color: #282c34; */
-  border-color:green;
-  color:red;
+  border-color:blue;
+  color:white;
   align-items: horizontal;
   justify-content: horizontal;
   font-family: "Pirata One";

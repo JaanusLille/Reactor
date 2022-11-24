@@ -15,6 +15,7 @@ const DivBordersPage = () => {
 
     return (
         <>
+            <BigFlagOfEstonia/>
             <DivBordersPageComponent/>
             <div style={divStyle}>
                 <WhiteComponentRow/>
