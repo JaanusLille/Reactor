@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap'); */
+
+/* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    /* background-image: url('https://images.unsplash.com/photo-1476990789491-712b869b91a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=888&q=80'); */
+    /* background-size: cover; */
+    /* background-position: center center; */
+    /* position: relative; */
+}
+
+.container {
+    position: relative;
+    width: 61.8%;
+    padding-top: 38.2%;
+    margin: 50vh auto 0;
+    transform: translateY(-50%);
+}
+
+.saltire {
+    /* opacity: 0.5; */
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    overflow: hidden;
+    /* background-color: rgba(0, 0, 139, 1); */
+    background-color: #005EB8;
+}
+
+.saltire::before,
+.saltire::after {
+    content: "";
+    position: absolute;
+    left: -10%;
+    top: 50%;
+    width: 120%;
+    height: 19%;
+    background-color: rgba(255,255,255,1);
+}
+
+.saltire::before {
+    transform: translateY(-50%) rotate(31deg);
+}
+
+.saltire::after {
+    transform: translateY(-50%) rotate(-31deg);
+}
